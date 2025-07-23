@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:12.11
 
 ENV TZ=America/Denver
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
